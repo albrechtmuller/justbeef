@@ -7,7 +7,6 @@
 #
 #gem 'simplecov', require: false, group: :test
 gem 'eventmachine'
-gem 'puma', '>= 5.3'
 gem 'thin'
 gem 'sinatra', '>= 2.0.2'
 gem 'rack', '>= 2.2.3'
@@ -92,3 +91,5 @@ source 'https://rubygems.org'
 
 
 
+
+gem "puma", "~> 5.3"
