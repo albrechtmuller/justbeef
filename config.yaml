@@ -17,8 +17,8 @@ beef:
     # Credentials to authenticate in BeEF.
     # Used by both the RESTful API and the Admin interface
     credentials:
-        user:   "beef"
-        passwd: "beef"
+        user:   "rand"
+        passwd: "r!nd"
 
     # Interface / IP restrictions
     restrictions:
@@ -36,7 +36,7 @@ beef:
     http:
         debug: false #Thin::Logging.debug, very verbose. Prints also full exception stack trace.
         host: "0.0.0.0"
-        port: "3000"
+        port: "8080"
 
         # Decrease this setting to 1,000 (ms) if you want more responsiveness
         #  when sending modules and retrieving results.
