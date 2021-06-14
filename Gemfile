@@ -7,6 +7,7 @@
 #
 #gem 'simplecov', require: false, group: :test
 gem 'eventmachine'
+gem 'puma'
 gem 'thin'
 gem 'sinatra', '>= 2.0.2'
 gem 'rack', '>= 2.2.3'
